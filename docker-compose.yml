@@ -1,0 +1,22 @@
+version: '3.2'
+services:
+  database:
+    image: bitnami/mariadb:10.2
+    ports:
+      - 3306:3306
+    environment:
+      ALLOW_EMPTY_PASSWORD: 'yes'
+      MARIADB_DATABASE: 'dbdrupal'
+      MARIADB_USER: 'usuariodrupal'
+      MARIADB_PASSWORD: 'clavedrupal'
+  web:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www/html
+      - logvolume01:/var/log
+    depends_on:
+      - database
+volumes:
+  logvolume01: {}
