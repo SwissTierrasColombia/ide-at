@@ -1,2 +1,2 @@
 # persistence path mysql
-persistence
+persistence-mariadb
