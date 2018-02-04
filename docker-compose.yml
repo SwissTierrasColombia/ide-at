@@ -9,6 +9,8 @@ services:
       MARIADB_DATABASE: 'dbdrupal'
       MARIADB_USER: 'usuariodrupal'
       MARIADB_PASSWORD: 'clavedrupal'
+    volumes:
+      - ./persistence:/bitnami
   web:
     build: .
     ports:
