@@ -1,0 +1,14 @@
+# link: https://www.drupal.org/node/2165673
+name: IDE-AT-Theme
+type: theme
+description: This is a bootstrap sub theme or IDE AT Portal (Infraestructura de Datos Espaciales para la Administracioón de Tierras)
+core: 8.x
+base theme: bootstrap
+# libraries:
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer

@@ -1,0 +1,8 @@
+# link: https://www.drupal.org/docs/8/theming-drupal-8/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme
+global-library:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/script.js: {}
