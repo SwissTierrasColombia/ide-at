@@ -1,2 +1,5 @@
 # persistence path mysql
-persistence-mariadb
+/persistence-mariadb
+
+# secret config
+/.env
