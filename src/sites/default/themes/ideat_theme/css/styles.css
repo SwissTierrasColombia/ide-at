@@ -1,0 +1,647 @@
+@font-face {
+font-family: 'Helvetica Neue Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Light'), url('HelveticaNeueLight.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 55 Roman'), url('HelveticaNeue-Roman.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica 85 Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 85 Heavy'), url('HelveticaNeue-Heavy.woff') format('woff');
+}
+
+
+/* ==============================================================================================
+*
+*                                IDEAT Styles LANDING PRINCIPAL
+*
+* ============================================================================================== */
+
+/*------------------- MENU ------------------------*/
+
+.ideat-pic{
+	max-width: 180px;
+}
+.menu-1{
+	padding: 15px 0px;
+}
+.ham-menu{
+	padding: 15px 0px;
+}
+.login-cta{
+	background-color: #26A5EA;
+	border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 5px 30px;
+}
+.login-cta:hover{
+	background-color: #268AC1;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	-o-transition: background-color .5s;
+  	transition: background-color .5s;
+}
+@media (max-width: 770px){
+	.login-cta{
+		margin: 1em 0;
+	}
+}
+
+/*------------------- HEADER ------------------------*/
+
+.header-home{
+	background-image: url("../images/bo-bg1.jpg");
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	padding: 2em;
+ 	max-height: 400px;
+ 	color: #ffffff;
+}
+.head-title1{
+	color: #ffffff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.head-title2{
+	color: #ffffff;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.head-text{
+	font-size: 16px;
+	max-width: 575px;
+}
+
+@media (max-width: 600px){
+	.header-home{
+		padding: 3em;
+	}
+}
+
+/*------------------- ICON SECTION ------------------------*/
+
+.icon-section{
+	padding: 3em 0;
+}
+.icon{
+	text-align: center;
+}
+.icon-pic{
+	max-width: 150px;
+	padding: 15px;
+}
+.link-icon-text{
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 24px;
+	padding-top: 10px;
+	text-align: center;
+}
+.vg{
+	color: #F63A3A;
+}
+.cm{
+	color: #F6C933;
+}
+.vl{
+	color: #95BC6D;
+}
+.gc{
+	color: #26A5EA;
+}
+
+/*-- NEWS SECTION --*/
+
+.news-box{
+	padding:0em;
+	border: 1px solid #707070;
+}
+.news-box h3{
+	padding: 15px 0 0 15px;
+	color: #707070;
+	text-transform: uppercase;
+}
+.new-field{
+	text-align: center;
+}
+.new-field img{
+	max-width: 100%;
+}
+.new-field h4{
+	font-size: 16px;
+	font-weight: 25px;
+	padding-top: 10px;
+}
+.news-box hr{
+	border: .5px solid #707070;
+	margin: 0 15px;
+}
+.event-title{
+	padding: 15px 0 0 15px;
+	color: #707070;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.event-link{
+	padding: 15px 15px 0 0;
+	text-align: right;
+}
+/*------------------- ENTIDADES ------------------------*/
+.ent-section{
+	padding: 3em 0;
+	background-color: #ADADAD;
+}
+.ent-box{}
+.ent-title1{
+	padding-top: 15px;
+	color: #ffffff;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 16px;
+	font-weight: lighter;
+}
+.ent-title2{
+	color: #ffffff;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 16px;
+	font-weight: bold;
+}
+.ent-box img{
+	max-width: 82px;
+}
+
+
+/*------------------- INFO PROYECTO ------------------------*/
+.icde-section{
+	padding: 3em 0;
+}
+.icde-img{
+	text-align: center;
+}
+.icde-img img{
+	max-width: 80px;
+}
+.text-icde{
+	color: #ADADAD;
+}
+.icde-section hr{
+	opacity: .5;
+	max-width: 1170px;
+}
+.agency-section{}
+.agency-box{
+	text-align: center;
+}
+.agency-box img{
+	max-width: 300px;
+}
+.done-box{
+	text-align: center;
+}
+.done-box img{
+	max-width: 300px;
+}
+
+
+/*------------------- SUB-FOOTER ------------------------*/
+.subfooter{
+	background-color: #eeeeee;
+	padding: 3em 0;
+}
+.subfooter hr{
+	border: .5px solid #626262;
+}
+.info-contact{
+}
+.info-contact h3{
+	font-size: 20px;
+	color: #626262;
+	font-weight: lighter;
+	line-height: 10px;
+}
+.info-contact img{}
+.redes{	
+}
+.redes h3{
+	font-size: 20px;
+	color: #626262;
+	font-weight: lighter;
+	line-height: 10px;
+}
+.redes img{}
+.suscribe-box{
+	text-align: right;
+}
+.suscribe-btn{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #26A5EA;
+	padding: 10px 40px;
+}
+.suscribe-btn:hover{
+	color: #ffffff;
+	background-color: #1A7FB5;
+}
+
+/*------------------- FOOTER ------------------------*/
+footer{
+	background-color: #4B4B4B;
+	padding: 1.5em 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+
+/* =============================================================
+*
+*               INTERNAS Styles LANDING PRINCIPAL
+*
+* ============================================================= */
+
+/*------------------------ INTERNA GENERAL ------------------------*/
+
+.header-home-intern{
+  background-image: url("../images/bo-bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.5em 0 0em;
+  max-height: 400px;
+  color: #ffffff;
+}
+.intern-head-title{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.bread-link{
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .5;
+}
+.bread-link:hover{
+  opacity: 1 !important;
+}
+.bread-link a{
+  color: #ffffff;
+}
+.bread-home:{
+ 
+}
+@media (max-width: 600px){
+  .header-home{
+    padding: 3em;
+  }
+}
+
+/*------------------------ QUE ES IDEAT ------------------------*/
+.ideat-section{
+  padding: 3em 0;
+}
+.box-pic-ideat{}
+.box-pic-ideat img{
+  max-width: 100%;
+}
+.box-ideat{}
+.box-ideat h2{
+  font-size: 60px;
+  font-weight: bold;
+  color: #626262;
+}
+.box-ideat h3{
+  font-size: 34px;
+  font-weight: lighter;
+  color: #626262;
+}
+.box-ideat p{
+  font-size: 18px;
+  color: #626262;
+}
+
+/*------------------------ OBJETIVOS ------------------------*/
+.obj-section{
+  padding: 3em 0;
+}
+.box-pic-obj{
+  background-image: url(../images/builds.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2em;
+  max-height: 400px;
+  min-height: 300px;
+  color: #ffffff;
+}
+.box-pic-obj h3{
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 60px;
+}
+.box-obj ul li{
+  font-size: 18px;
+}
+/*------------------------ MARCO LEGAL ------------------------*/
+.mlegal-section{
+  padding: 3em 0;
+}
+.box-pic-mlegal{
+  text-align: center;
+}
+.box-pic-mlegal img{
+  max-width: 200px;
+}
+.box-mlegal{}
+.box-mlegal h2{
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 60px;
+  color: #23ACE3;
+}
+@media (max-width: 600px){
+  .box-pic-mlegal img{
+    display: none;
+  }
+  .box-mlegal h2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+}
+.blue-section{
+  background-color: #23ACE3;
+  padding: 3em 0;
+}
+.box-blue-mlegal{
+  color: #ffffff;
+}
+.box-blue-mlegal ul li{}
+/*------------------------ ENTIDADES ------------------------*/
+/*------------------------ TECNOLOGÍA ------------------------*/
+.tecno-sec{
+  padding: 3em 0;
+  background-color: #ED731A;
+}
+.box-pic-tecno{
+  text-align: center;
+}
+.box-pic-tecno img{
+  max-width: 200px;
+}
+.box-tecno h2{
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 60px;
+  color: #ffffff;
+}
+@media (max-width: 600px){
+  .box-pic-tecno img{
+    display: none;
+  }
+  .box-tecno h2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+}
+.orange-sec{
+  padding: 3em 0;
+}
+.box-pic-tecno2{
+  text-align: center;
+}
+.box-pic-tecno2 img{
+  max-width: 250px;
+}
+.box-tecno2 ul li{
+  color: #626262;
+  font-size: 18px;
+  margin-top: .5em;
+}
+
+.meta-sec{
+  padding: 3em 0;
+  background-color: #F6C933;
+}
+.icon-box-meta{
+  text-align: center;
+}
+.icon-box-meta img{
+  max-width: 150px;
+}
+.title-meta1{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: lighter;  
+  line-height: 30px;
+}
+.title-meta2{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.text-meta{
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 20px;
+}
+.box-meta-cta{
+  text-align: right;
+}
+.cta-meta{
+  color: #F6C933;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 3em 0;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -ms-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+}
+.cta-meta:hover{
+  background-color: #EAEAEA;
+}
+.tecno-item-sec{
+  padding: 3em 0;
+}
+.tecno-item-title{
+  color: #ED731A;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tecno-item-title2{
+  color: #ED731A;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+.line-tecno{
+  border:1px solid #ED731A;
+}
+/*------------------------ ESTÁNDARES ------------------------*/
+.enti-section{
+  padding: 3em 0;
+}
+.box-standar h2{
+  font-size: 23px;
+  font-weight: lighter;
+  line-height: 40px;
+  color: #E51A83;
+}
+@media (max-width: 600px){
+  .box-pic-standar img{
+    display: none;
+  }
+  .box-standar h2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+}
+.pink-sec{
+  padding: 3em 0;
+  background-color: #E51A83;
+  color: #ffffff;
+}
+.pink-sec h2{
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.pink-sec h3{
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+.pink-sec hr{
+  border:2px solid #ffffff;
+}
+.pink-sec p{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.diag-sec{
+  padding: 3em 0;
+}
+.model-pic-box{
+  text-align: center;
+}
+.model-pic-box img{
+  max-width: 250px;
+}
+.model-text-box {}
+.title-diag{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #E51A83;
+  line-height: 39px;
+}
+.title-diag2{
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #E51A83;
+  line-height: 39px;
+}
+.model-text-box ul li{
+  color: #4B4B4B;
+  font-size: 22px;
+}
+/*------------------------ MODELO DE GESTIÓN ------------------------*/
+.gmodel-sec{
+  padding: 3em 0;
+}
+.box-pic-gmodel{
+  text-align: center;
+}
+.box-pic-gmodel img{
+  max-width: 200px;
+}
+.box-gmodel h2{
+  font-size: 43px;
+  font-weight: lighter;
+  line-height: 60px;
+  color: #8DBF42;
+}
+@media (max-width: 600px){
+  .box-gmodel-mlegal img{
+    display: none;
+  }
+  .box-gmodel h2{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+}
+.green-sec{
+  padding: 3em 0;
+  background-color: #8DBF42;
+}
+.box-pic-gmodel2{
+  text-align: center;
+}
+.box-pic-gmodel2 img{
+  max-width: 250px;
+}
+.box-pic-gmodel2 h3{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: left;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+}
+.box-pic-gmodel2 h4{
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+.gmodel-sec2{
+  padding: 3em 0;
+}
+.gmodel-sec2 h4{
+  color: #8DBF42;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.gmodel-sec2 ul li{
+  color: #4B4B4B;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+/*------------------------ CONTACTO ------------------------*/
+/*------------------------ INGRESO ------------------------*/
+/*------------------------ GESTOR DE CONTENIDOS ------------------------*/
+
