@@ -2,4 +2,4 @@
 /persistence-mariadb
 
 # secret config
-/.env
+/*.env

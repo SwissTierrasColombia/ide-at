@@ -12,4 +12,14 @@ RUN docker-php-ext-install -j$(nproc) iconv \
 
 RUN a2enmod rewrite
 
-RUN apt-get install -y nmap mysql-client dnsutils
+RUN apt-get install -y nmap mysql-client dnsutils git iputils-ping
+
+RUN curl --silent --show-error https://getcomposer.org/installer | php
+
+RUN mv composer.phar /usr/bin/composer && chmod +x /usr/bin/composer
+
+RUN apt-get install -y unzip
+
+RUN curl https://drupalconsole.com/installer -L -o drupal.phar
+
+RUN mv drupal.phar /usr/bin/drupal && chmod +x /usr/bin/drupal
