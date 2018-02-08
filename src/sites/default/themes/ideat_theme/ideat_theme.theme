@@ -6,3 +6,9 @@
  *
  * Place your custom PHP code in this file.
  */
+// File: THEMENAME.theme in your theme's root directory
+function ideat_theme_preprocess(&$variables, $hook)
+{
+    $variables['base_path'] = base_path();
+    $variables['theme_path'] = base_path() . $variables['directory'];
+}

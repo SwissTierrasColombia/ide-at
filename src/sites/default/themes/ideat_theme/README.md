@@ -32,3 +32,7 @@ Please refer to the @link registry Theme Registry @endlink topic.
 - https://www.drupal.org/docs/8/theming
 - https://www.youtube.com/watch?v=kaINJlFFmfM
 - https://books.google.com.co/books?id=F0TiCwAAQBAJ&pg=PA161&lpg=PA161&dq=twig+template+only+for+index+drupal+8&source=bl&ots=CFYW9v8x6L&sig=WTCI_cUMJtPUe7d2eRuiVPU7NT4&hl=es&sa=X&ved=0ahUKEwikgaCkwJTZAhULyVMKHfu8D2sQ6AEIYDAG#v=onepage&q=twig%20template%20only%20for%20index%20drupal%208&f=false
+- https://drupalize.me/blog/201405/lets-debug-twig-drupal-8
+- https://www.webwash.net/how-to-print-variables-using-kint-in-drupal-8/
+- https://www.drupal.org/docs/8/core/modules/views
+- https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure
