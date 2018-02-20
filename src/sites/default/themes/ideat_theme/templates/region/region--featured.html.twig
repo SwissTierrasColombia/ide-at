@@ -6,3 +6,13 @@
     <h1 class="head-title1 col-xs-12 col-sm-12 col-md-8 col-lg-8">Infraestructura de datos espaciales para la administración de tierras</h1>
   </div>
 </header>
+
+{% set attributes = attributes.setAttribute('id', 'featured') %}
+{% set attributes = attributes.addClass('region--featured') %}
+{% if content %}
+  <footer {{ attributes }}>
+    <div class="container">
+      {{ content }}
+    </div>
+  </footer>
+{% endif %}

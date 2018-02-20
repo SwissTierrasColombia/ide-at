@@ -61,8 +61,12 @@
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
     <js-placeholder token="{{ placeholder_token|raw }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="description" content="Portal IDE-AT - Agencia de implementación Swissphoto-Incige" />
+  	<meta name="keywords" content="Portal, IDEAT, IDE, IDE-AT, Incige, Swissphoto-Incige, Swissphoto" />
+  	<meta name="author" content="Andrés Barbosa" />
   </head>
-  <body{{ attributes.addClass(body_classes) }}>
+  <body id="page" {{ attributes.addClass(body_classes) }}>
     <a href="#main-content" class="visually-hidden focusable skip-link">
       {{ 'Skip to main content'|t }}
     </a>

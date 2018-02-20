@@ -59,3 +59,21 @@
   </div>
   <!-- <div class="ham-menu"> <div class="topnav" id="myTopnav"> <a href="#home" class="active">Home</a> <a href="#news">News</a> <a href="#contact">Contact</a> <a href="#about">About</a> <a href="javascript:void(0);" style="font-size:15px;"
   class="icon" onclick="myFunction()">&#9776;</a> </div> </div> -->
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * @see template_preprocess_region()
+ */
+ link: http://cgit.drupalcode.org/glisseo/tree/templates/region/region--header.html.twig?h=7.x-1.x&id=1e51ee319971a58b02bf9f90a61d8f4734629987
+#}
+{% set attributes = attributes.setAttribute('id', 'header') %}
+{% set attributes = attributes.addClass('region--header') %}
+{% if content %}
+  <header{{ attributes }}>
+    <div class="container">
+      {{ content }}
+    </div>
+  </header>
+{% endif %}
