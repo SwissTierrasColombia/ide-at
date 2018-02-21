@@ -1,0 +1,5 @@
+name: 'IDE AT Module'
+type: module
+description: 'IDE AT module for custom things in template'
+core: 8.x
+package: 'Custom'

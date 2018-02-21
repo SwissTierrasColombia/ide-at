@@ -1,0 +1,14 @@
+{
+  "name": "drupal/ide_at",
+  "type": "drupal-module",
+  "description": "IDE AT module for custom things in template",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ide_at",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ide_at",
+    "source": "http://cgit.drupalcode.org/ide_at"
+  },
+  "require": { }
+}

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains ide_at.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ide_at_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ide_at module.
+    case 'help.page.ide_at':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('IDE AT module for custom things in template') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ide_at_theme() {
+  return [
+    'ide_at' => [
+      'render element' => 'children',
+    ],
+  ];
+}
