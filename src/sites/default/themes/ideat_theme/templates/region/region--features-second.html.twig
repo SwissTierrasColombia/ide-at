@@ -1,0 +1,11 @@
+{% set attributes = attributes.setAttribute('id', 'featured-first') %}
+{% set attributes = attributes.addClass('region--featured-first') %}
+{% set attributes = attributes.addClass('header-home') %}
+{% if content %}
+  <!-- HEADER PRINCIPAL -->
+  <section class="icon-section">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+{% endif %}

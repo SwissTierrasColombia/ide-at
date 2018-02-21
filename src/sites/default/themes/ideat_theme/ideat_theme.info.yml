@@ -6,10 +6,19 @@ name: 'IDE-AT-Theme'
 description: 'This is a theme of IDE AT Portal (Infraestructura de Datos Espaciales para la Administración de Tierras).'
 #package: 'IDE-AT-Theme'
 
+# link: https://www.drupal.org/docs/8/theming-drupal-8/adding-regions-to-a-theme
+# link: https://api.drupal.org/api/drupal/core%21modules%21system%21templates%21page.html.twig/8.2.x
+# link: https://www.drupal.org/forum/support/theme-development/2014-05-05/drupal-8-regions
 regions:
   header: 'Header'
-  featured: 'Featured'
+  features_first: 'Features first'
+  features_second: 'Features second'
+  features_third: 'Features third'
+  features_fourth: 'Features fourth'
+  highlighted: 'Highlighted'
   content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
   footer: 'Footer'
 
 libraries:

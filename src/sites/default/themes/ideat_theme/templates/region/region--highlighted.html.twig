@@ -1,0 +1,10 @@
+{% set attributes = attributes.setAttribute('id', 'highlighted') %}
+{% set attributes = attributes.addClass('region--highlighted') %}
+{% if content %}
+  <!-- HEADER PRINCIPAL -->
+  <header {{ attributes }}>
+    <div class="container">
+      {{ content }}
+    </div>
+  </header>
+{% endif %}
