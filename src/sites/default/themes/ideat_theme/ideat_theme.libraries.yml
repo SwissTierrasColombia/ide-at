@@ -1,6 +1,7 @@
 global-styling:
   css:
     theme:
+      css/patch.css: {}
       css/animate.css: {}
       #css/bootstrap.css: {}
       css/styles.css: {}
