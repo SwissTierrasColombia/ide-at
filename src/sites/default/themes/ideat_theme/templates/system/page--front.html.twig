@@ -3,6 +3,11 @@
 {{ dump(breadcrumb) }}
 {{ kint(page) }}
 {% include 'index-temporal.html.twig' %}
+<ol>
+  {% for key, value in _context  %}
+    <li>{{ key }}</li>
+  {% endfor %}
+</ol>
 #}
 
 {{ page.header }}

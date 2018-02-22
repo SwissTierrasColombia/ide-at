@@ -3,42 +3,72 @@
  * link: https://knackforge.com/blog/pathirakaliappan/create-multi-level-bootstrap-menu-drupal-8
  * @see http://twig.sensiolabs.org/doc/tags/macro.html
  */
+  {{ dump(items) }}
+  {{ kint(items) }}
+  {% for key, value in _context  %}
+    {{ key }}<br>
+  {% endfor %}
 #}
-<br/>
-<br/>
-<br/>
-<br/>
-
-{% import _self as menus %}
-{{ menus.menu_links(items, attributes, 0) }}
 
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      nivel 0
+      {# Estoy en el NIVEL 0 #}
     {% else %}
-      nivel !0
+      {# Estoy en el NIVEL != 0 #}
     {% endif %}
 
+    {# Hace un bucle por los items #}
     {% for item in items %}
-      {% dump(item) %}
+      {# Si el item tiene hijos .below #}
       {% if item.below %}
+        {# Es un item CON hijos #}
+        <li class="has-dropdown">
         {% if menu_level == 0 %}
-          nivel 0 item
-          {{ item.title }}: {{ item.url }}
-          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+          {# Es un item del NIVEL 0 CON hijos #}
+          {{ link(item.title, item.url) }}
+          <ul class="dropdown">
+            {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+          </ul>
         {% else %}
-          nivel !0 item
-          {{ item.title }}: {{ item.url }}
-          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+          {# Es un item del NIVEL != 0 CON hijos #}
+          {# NO EXITE POR AHORA {{ menus.menu_links(item.below, attributes, menu_level + 1) }} #}
         {% endif %}
+        <li>
       {% else %}
-        <li {{ item.attributes }}>{{ link(item.title, item.url) }}</li>
+        {# Es un item SIN hijos de cualquier NIVEL #}
+        {% if menu_level == 0 %}
+          {# Es un item SIN hijos de NIVEL 0 #}
+          <li {{ item.attributes }}>{{ link(item.title, item.url) }}</li>
+        {% else %}
+          {# Es un item SIN hijos de NIVEL != 0 #}
+          <li {{ item.attributes }}>{{ link(item.title, item.url) }}</li>
+        {% endif %}
       {% endif %}
     {% endfor %}
-    termine
+    </li>
   {% endif %}
 {% endmacro %}
 
-<!--inicio-->
+
+
+<div>
+  <nav class="fh5co-nav" role="navigation">
+    <div class="container-wrap">
+      <div class="top-menu">
+        <div class="row">
+          <div class="col-xs-2">
+            <div id="IDE-AT-logo"><img class="ideat-pic" src="{{ theme_path }}/images/logo.png"></div>
+          </div>
+          <div class="col-xs-10 text-right menu-1">
+            <ul>
+                {% import _self as menus %}
+                {{ menus.menu_links(items, attributes, 0) }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
