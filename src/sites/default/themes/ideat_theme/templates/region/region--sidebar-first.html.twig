@@ -1,0 +1,10 @@
+{% set attributes = attributes.setAttribute('id', 'sidebar-first') %}
+{% set attributes = attributes.addClass('region--sidebar-first') %}
+{% set attributes = attributes.addClass('icon-section') %}
+{% if content %}
+<section{{ attributes }}>
+  <div class="container">
+    <div class="icon-box col-xs-12 col-sm-8 col-md-8 col-lg-8">
+      {{ content }}
+    </div>
+{% endif %}

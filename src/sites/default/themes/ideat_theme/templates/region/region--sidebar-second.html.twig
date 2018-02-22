@@ -1,0 +1,10 @@
+{% set attributes = attributes.setAttribute('id', 'highlighted') %}
+{% set attributes = attributes.addClass('region--highlighted') %}
+{% set attributes = attributes.addClass('icon-section') %}
+{% if content %}
+    <div class="news-box col-sm-4 col-md-4 col-xs-12 col-lg-4">
+      {{ content }}
+    </div>
+  </div>
+</section>
+{% endif %}
