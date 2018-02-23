@@ -1,3 +1,14 @@
+{# {{ kint(content) }} #}
+{% set title = content['banner_block']['#title'] %}
+{% if is_front %}
 <!-- <h1 class="head-title1">Infraestructura de datos espaciales para la administración de tierras</h1> -->
 <h1 class="head-title2 col-md-12">Piloto Geoportal</h1>
 <h1 class="head-title1 col-xs-12 col-sm-12 col-md-8 col-lg-8">Infraestructura de datos espaciales para la administración de tierras</h1>
+{% else %}
+<header class="header-home-intern">
+  <div class="container">
+    <h1 class="intern-head-title col-md-12">{{ title }}</h1>
+    <h4 class="bread-link col-md-12"><a class="bread-home" href="index.html">Inicio</a> / {{ title }} </h4>
+  </div>
+</header>
+{% endif %}

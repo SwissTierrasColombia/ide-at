@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a single page.
+ *
+ * @see template_preprocess_page()
+ * link: http://cgit.drupalcode.org/glisseo/tree/templates/page/page.html.twig?h=7.x-1.x&id=1e51ee319971a58b02bf9f90a61d8f4734629987
+ */
+#}
+<div id="app">
+  {{ page.header }}
+  {{ page.navigation }}
+
+  <main id="main">
+    {{ page.features_first }}
+    {{ page.content }}
+  </main>
+
+  {{ page.footer }}
+</div>
