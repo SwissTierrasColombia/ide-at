@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icons/icomoon.eot?uv5o5z');
+  src:  url('../fonts/icons/icomoon.eot?uv5o5z#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?uv5o5z') format('truetype'),
+    url('../fonts/icons/icomoon.woff?uv5o5z') format('woff'),
+    url('../fonts/icons/icomoon.svg?uv5o5z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xtf:before {
+  content: "\e900";
+}
+.icon-interils:before {
+  content: "\e901";
+}
+.icon-theme:before {
+  content: "\e902";
+}
+.icon-visor:before {
+  content: "\e903";
+}
+.icon-catalogue:before {
+  content: "\e904";
+}
+.icon-gestor:before {
+  content: "\e905";
+}
+.icon-validate:before {
+  content: "\e906";
+}
+.icon-legal:before {
+  content: "\e907";
+}
+.icon-standar:before {
+  content: "\e908";
+}
+.icon-gestion:before {
+  content: "\e909";
+}
+.icon-techno:before {
+  content: "\e90a";
+}
+.icon-document:before {
+  content: "\e90b";
+}
+.icon-rar:before {
+  content: "\e90c";
+}
+.icon-git:before {
+  content: "\e90d";
+}
+.icon-circle-git:before {
+  content: "\e90e";
+}
+.icon-mobile:before {
+  content: "\e90f";
+}
+.icon-news:before {
+  content: "\e910";
+}
+.icon-mail:before {
+  content: "\e911";
+}
+.icon-quest:before {
+  content: "\e912";
+}
+.icon-bitbucket:before {
+  content: "\e913";
+}
+.icon-contact:before {
+  content: "\e914";
+}
+.icon-share:before {
+  content: "\e915";
+}
+.icon-facebook:before {
+  content: "\e916";
+}
+.icon-twitter:before {
+  content: "\e917";
+}
+.icon-linkedin:before {
+  content: "\e918";
+}
+.icon-youtube:before {
+  content: "\e919";
+}
+.icon-ladm:before {
+  content: "\e91a";
+}
+.icon-course:before {
+  content: "\e91b";
+}
+.icon-show:before {
+  content: "\e91c";
+}
+.icon-layers:before {
+  content: "\e91d";
+}
+.icon-delete:before {
+  content: "\e91e";
+}
+.icon-metadata:before {
+  content: "\e91f";
+}
+.icon-plus:before {
+  content: "\e920";
+}
+.icon-minus:before {
+  content: "\e921";
+}
+.icon-close:before {
+  content: "\e922";
+}
+.icon-edit:before {
+  content: "\e923";
+}
+.icon-ruler:before {
+  content: "\e924";
+}
+.icon-refresh:before {
+  content: "\e925";
+}
+.icon-map:before {
+  content: "\e926";
+}
+.icon-info:before {
+  content: "\e927";
+}
+.icon-net:before {
+  content: "\e928";
+}
+.icon-target:before {
+  content: "\e929";
+}
+.icon-point:before {
+  content: "\e92a";
+}
+.icon-line:before {
+  content: "\e92b";
+}
+.icon-area:before {
+  content: "\e92c";
+}
+.icon-user:before {
+  content: "\e92d";
+}
+.icon-full:before {
+  content: "\e92e";
+}
+.icon-upload:before {
+  content: "\e92f";
+}
+.icon-download:before {
+  content: "\e930";
+}
+.icon-extern:before {
+  content: "\e931";
+}
+.icon-blank:before {
+  content: "\e932";
+}
+.icon-search:before {
+  content: "\e933";
+}
+.icon-print:before {
+  content: "\e934";
+}
+.icon-pointer:before {
+  content: "\e935";
+}
+.icon-controls:before {
+  content: "\e936";
+}
+.icon-square-check:before {
+  content: "\e937";
+}
+.icon-pic:before {
+  content: "\e938";
+}
+.icon-circle-place:before {
+  content: "\e939";
+}
+.icon-square-place:before {
+  content: "\e93a";
+}
+.icon-check:before {
+  content: "\e93b";
+}
+.icon-circle-check:before {
+  content: "\e93c";
+}
+.icon-wfs:before {
+  content: "\e93d";
+}
+.icon-area-expand:before {
+  content: "\e93e";
+}
+.icon-area-fill:before {
+  content: "\e93f";
+}
+.icon-area-left-fill:before {
+  content: "\e940";
+}
+.icon-themes:before {
+  content: "\e941";
+}
+.icon-kml:before {
+  content: "\e942";
+}
+.icon-kml-file:before {
+  content: "\e943";
+}
+.icon-vector:before {
+  content: "\e944";
+}
+.icon-mssql:before {
+  content: "\e945";
+}
+.icon-oracle-spatial:before {
+  content: "\e946";
+}
+.icon-oracle-raster:before {
+  content: "\e948";
+}
+.icon-raster:before {
+  content: "\e949";
+}
+.icon-postgis:before {
+  content: "\e94a";
+}
+.icon-text-delimited:before {
+  content: "\e94b";
+}
+.icon-spatialite:before {
+  content: "\e94c";
+}
+.icon-wcs:before {
+  content: "\e94d";
+}
+.icon-triangle-area:before {
+  content: "\e94e";
+}
+.icon-icon-add-raster:before {
+  content: "\e94f";
+}
+.icon-add-oracle-spatial:before {
+  content: "\e950";
+}
+.icon-add-oracle-raster:before {
+  content: "\e951";
+}
+.icon-add-wfs:before {
+  content: "\e952";
+}
+.icon-add-wcs:before {
+  content: "\e953";
+}
+.icon-add-wms:before {
+  content: "\e954";
+}
+.icon-add-spatialite:before {
+  content: "\e955";
+}
+.icon-add-postgis:before {
+  content: "\e956";
+}
+.icon-add-text-delimited:before {
+  content: "\e957";
+}
+.icon-add-mssql:before {
+  content: "\e958";
+}
+.icon-add-vector:before {
+  content: "\e959";
+}

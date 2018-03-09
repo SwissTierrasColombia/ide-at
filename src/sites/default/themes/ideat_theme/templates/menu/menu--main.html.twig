@@ -65,6 +65,8 @@
             <ul>
                 {% import _self as menus %}
                 {{ menus.menu_links(items, attributes, 0) }}
+                {# @link https://www.drupal.org/docs/8/theming/twig/functions-in-twig-templates #}
+                <li><a href="{{ url('user.login') }}" class="login-cta">{{ 'Login'|t }}</a></li>
             </ul>
           </div>
         </div>

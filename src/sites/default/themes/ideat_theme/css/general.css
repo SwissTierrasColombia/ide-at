@@ -1,5 +1,5 @@
 /*==============================================================================================
-*										GENERAL STYLES
+*                   GENERAL STYLES
 ==============================================================================================*/
 
 body {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav .top-menu {
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .top-menu {
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li a {
   position: relative;
-  font-size: 13px;
+  font-size: 12px;
   padding: 30px 12px;
   color: rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.5s;
@@ -159,6 +159,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transform: translate3d(0, -10px, 0);
   transform: translate3d(0, -10px, 0);
 }
+.fh5co-nav ul .dropdown li a:after{
+  display: none;
+}
+.login-cta:after{
+  display: none;
+}
 .fh5co-nav ul li a:hover {
   color: #000;
 }
@@ -171,7 +177,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-nav ul li.has-dropdown .dropdown {
-  width: 140px;
+  width: 250px;
   -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
@@ -1075,9 +1081,9 @@ input[type="text"] {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e0c5";
+  content: "\e903";
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
