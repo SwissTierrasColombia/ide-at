@@ -51,6 +51,8 @@ class LeyendaICDEBlock extends BlockBase {
    */
   public function build() {
     $build = [];
+    $build['#theme'] = 'leyenda_icdeblock';
+    $build['#text_var'] = '' . $this->configuration['texto'] . '';
     $build['leyenda_icdeblock_texto']['#markup'] = '<p>' . $this->configuration['texto'] . '</p>';
 
     return $build;

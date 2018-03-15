@@ -30,6 +30,21 @@ function ide_at_theme() {
   return [
     'ide_at' => [
       'render element' => 'children',
+      'variables' => ['test_var' => NULL],
+    ],
+    'logos_swissphoto_incige_block' => [
+      'render element' => 'children',
+      'variables' => [
+        'test_var' => NULL,
+      ],
+      'template' => 'block--logosswissphotoincigeagenciadeimplementacion',
+    ],
+    'leyenda_icdeblock' => [
+      'render element' => 'children',
+      'variables' => [
+        'text_var' => NULL,
+      ],
+      'template' => 'block--leyendaicdeagenciadeimplementacion',
     ],
   ];
 }
