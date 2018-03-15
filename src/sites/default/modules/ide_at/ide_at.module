@@ -68,5 +68,19 @@ function ide_at_theme() {
       ],
       'template' => 'block--banneragenciadeimplementacion',
     ],
+    'servicios_block' => [
+      'render element' => 'children',
+      'variables' => [
+        'visor_link_var' => NULL,
+        'visor_title_var' => NULL,
+        'metadatos_link_var' => NULL,
+        'metadatos_title_var' => NULL,
+        'validador_link_var' => NULL,
+        'validador_title_var' => NULL,
+        'contenidos_link_var' => NULL,
+        'contenidos_title_var' => NULL,
+      ],
+      'template' => 'block--serviciosagenciadeimplementacion',
+    ],
   ];
 }
