@@ -51,6 +51,8 @@ class CreditosBlock extends BlockBase {
    */
   public function build() {
     $build = [];
+    $build['#theme'] = 'creditos_block';
+    $build['#licencia_var'] = '<p>' . $this->configuration['licencia'] . '</p>';
     $build['creditos_block_licencia']['#markup'] = '<p>' . $this->configuration['licencia'] . '</p>';
 
     return $build;

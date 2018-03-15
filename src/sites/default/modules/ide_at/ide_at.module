@@ -46,5 +46,27 @@ function ide_at_theme() {
       ],
       'template' => 'block--leyendaicdeagenciadeimplementacion',
     ],
+    'redes_sociales_block' => [
+      'render element' => 'children',
+      'variables' => [
+        'url_twitter' => NULL,
+        'url_youtube' => NULL,
+      ],
+      'template' => 'block--redessocialesagenciadeimplementacion',
+    ],
+    'creditos_block' => [
+      'render element' => 'children',
+      'variables' => [
+        'licencia_var' => NULL,
+      ],
+      'template' => 'block--creditosagenciadeimplementacion',
+    ],
+    'banner_block' => [
+      'render element' => 'children',
+      'variables' => [
+        'page_title_var' => NULL,
+      ],
+      'template' => 'block--banneragenciadeimplementacion',
+    ],
   ];
 }

@@ -58,6 +58,9 @@ class RedesSocialesBlock extends BlockBase {
    */
   public function build() {
     $build = [];
+    $build['#theme'] = 'redes_sociales_block';
+    $build['#url_twitter'] = $this->configuration['url_twitter'];
+    $build['#url_youtube'] = $this->configuration['url_youtube'];
     $build['redes_sociales_block_url_twitter']['#markup'] = '<p>' . $this->configuration['url_twitter'] . '</p>';
     $build['redes_sociales_block_url_youtube']['#markup'] = '<p>' . $this->configuration['url_youtube'] . '</p>';
 

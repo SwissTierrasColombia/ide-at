@@ -31,6 +31,8 @@ class BannerBlock extends BlockBase {
     //debug($config);
     //$page_title = $this->t("'%name' block", array('%name' => $info[$block->delta]['info']));//block name
     $build = [];
+    $build['#theme'] = 'banner_block';
+    $build['#page_title_var'] = $page_title;
     $build['banner_block']['#markup'] = 'Implement BannerBlock.';
     $build['banner_block']['#title'] = $page_title;
 

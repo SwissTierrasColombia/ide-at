@@ -188,3 +188,7 @@ root@0991a43e5564:/var/www/html#
 
 ## Referencias
 - https://hechoendrupal.gitbooks.io/drupal-console/content/es/commands/generate-plugin-block.html
+- https://www.drupal.org/docs/8/theming/twig/create-custom-twig-templates-from-custom-module
+- https://drupal.stackexchange.com/questions/206290/twig-template-for-a-custom-block-plugin
+- https://www.drupal.org/docs/8/creating-custom-modules/create-a-custom-block
+- https://www.drupal.org/forum/support/module-development-and-code-questions/2016-08-23/drupal8-render-form-in-a-twig
