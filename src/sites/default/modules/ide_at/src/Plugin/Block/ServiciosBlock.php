@@ -133,14 +133,14 @@ class ServiciosBlock extends BlockBase {
   public function build() {
     $build = [];
     $build['#theme'] = 'servicios_block';
-    $build['#visor_link_var'] = '';
-    $build['#visor_title_var'] = '';
-    $build['#metadatos_link_var'] = '';
-    $build['#metadatos_title_var'] = '';
-    $build['#validador_link_var'] = '';
-    $build['#validador_title_var'] = '';
-    $build['#contenidos_link_var'] = '';
-    $build['#contenidos_title_var'] = '';
+    $build['#visor_link_var'] = $this->configuration['visor_link'];
+    $build['#visor_title_var'] = $this->configuration['visor_title'];
+    $build['#metadatos_link_var'] = $this->configuration['metadatos_link'];
+    $build['#metadatos_title_var'] = $this->configuration['metadatos_title'];
+    $build['#validador_link_var'] = $this->configuration['validador_link'];
+    $build['#validador_title_var'] = $this->configuration['validador_title'];
+    $build['#contenidos_link_var'] = $this->configuration['contenidos_link'];
+    $build['#contenidos_title_var'] = $this->configuration['contenidos_title'];
     $build['servicios_block_entrada_html']['#markup'] = 'ServiciosBlock.php';
 
     return $build;
