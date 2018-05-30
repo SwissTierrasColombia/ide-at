@@ -7,6 +7,7 @@ global-styling:
       css/general.css: {}
       css/style-fonts.css: {}
       css/ham-menu.css: {}
+      css/noticias.css: {}
   js:
     js/modernizr-2.6.2.min.js: {type: file, minified: true}
     js/fontawesome-all.min.js: {type: file, minified: true}

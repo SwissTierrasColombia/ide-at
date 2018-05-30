@@ -15,12 +15,12 @@ sudo chown 1001:root persistence-mariadb/ -R
 docker-compose up
 ```
 
-
 ## Configure
 - Create .env file
 - Create src/sites/default/service.yml y src/sites/default/settings.php
 - Restore backup SQL
 - Access with ```docker-compose exec web bash```
+- Install dependencies in **/var/www/html** with command ```composer install```
 
 ## Restore database
 ```
@@ -43,4 +43,10 @@ Database changed
 MariaDB [ideat]> \. Drupal8Dump20180315.sql
 Query OK, 0 rows affected (0.00 sec)
 
+```
+
+## Reload cache
+See https://www.drupal.org/docs/7/administering-drupal-7-site/clearing-or-rebuilding-drupals-cache
+```
+docker-compose exec web drupal cc all
 ```

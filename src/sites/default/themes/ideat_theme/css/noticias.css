@@ -1,0 +1,33 @@
+/*------------------------ NOTICIAS ------------------------*/
+.view-noticias {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.view-noticias .views-row {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 80px;
+}
+
+.view-noticias .views-row .views-field-field-image {
+  height: 70px;
+  overflow: hidden;
+}
+
+.view-noticias .views-row .views-field-field-image img {
+  margin: 0 auto;
+}
+
+.view-noticias .views-row .views-field-title {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.view-noticias .views-row .views-field-title a {
+  color: #626262;
+}
+
+.view-noticias .views-row .views-field-title a:hover {
+  color: #26A5EA;
+}
