@@ -7,6 +7,7 @@
   display: inline-block;
   vertical-align: top;
   max-width: 80px;
+  margin-right: 10px;
 }
 
 .view-noticias .views-row .views-field-field-image {
