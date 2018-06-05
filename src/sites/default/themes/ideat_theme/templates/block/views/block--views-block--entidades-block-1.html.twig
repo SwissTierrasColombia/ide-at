@@ -1,0 +1,20 @@
+{#
+/**
+  * link: https://drupal.stackexchange.com/questions/195828/content-types-versus-custom-block-types
+  * link: https://drupal.stackexchange.com/questions/205337/how-to-template-a-view-and-be-able-to-manipulate-the-content-with-it
+  */
+#}
+
+<section class="ent-section">
+	<div class="container">
+		<div class="ent-box col-xs-12 col-sm-12 col-md-5 col-lg-5">
+			<h1 class="ent-title1">Entidades</h1>
+			<h1 class="ent-title2">Participantes</h1>
+		</div>
+		<div class="ent-box2 col-xs-12 col-sm-12 col-md-7 col-lg-7">
+      {% block content %}
+        {{ content }}
+      {% endblock %}
+		</div>
+	</div>
+</section>
