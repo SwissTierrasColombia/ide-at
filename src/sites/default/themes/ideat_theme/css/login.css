@@ -1,0 +1,17 @@
+#user-login-form {
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #E3E3E3;
+}
+
+#user-login-form::before {
+  content: "";
+  background-image: url("/sites/default/files/material/img/logo.png");
+  height: 50px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}

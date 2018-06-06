@@ -42,7 +42,6 @@ You can turn off this feature to get a quicker startup with -A
 Database changed
 MariaDB [ideat]> \. Drupal8Dump20180315.sql
 Query OK, 0 rows affected (0.00 sec)
-
 ```
 
 ## Reload cache
@@ -50,3 +49,6 @@ See https://www.drupal.org/docs/7/administering-drupal-7-site/clearing-or-rebuil
 ```
 docker-compose exec web drupal cc all
 ```
+
+## Expand all items in menu tree
+See https://www.drupal.org/project/drupal/issues/2594425#comment-12494095

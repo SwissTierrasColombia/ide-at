@@ -1,11 +1,3 @@
-{% set attributes = attributes.setAttribute('id', 'features-first') %}
-{% set attributes = attributes.addClass('region--features-first') %}
-{% set attributes = attributes.addClass('header-home') %}
 {% if content %}
-  <!-- HEADER PRINCIPAL -->
-  <header {{ attributes }}>
-    <div class="container">
-      {{ content }}
-    </div>
-  </header>
+{{ content }}
 {% endif %}
