@@ -3,3 +3,6 @@
 
 # secret config
 /*.env
+
+# files
+**/files/*
