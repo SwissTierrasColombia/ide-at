@@ -25,7 +25,7 @@ class ServiciosBlock extends BlockBase {
             'metadatos_title' => 'Catálogo de Metadatos',
             'validador_link' => 'https://validador.proadmintierra.info/',
             'validador_title' => 'Validador de Datos y Metadatos',
-            'contenidos_link' => 'https://ide.proadmintierra.info/documentacion.html',
+            'contenidos_link' => 'https://ide.proadmintierra.info/documentacion',
             'contenidos_title' => 'Documentación',
           ] + parent::defaultConfiguration();
   }
