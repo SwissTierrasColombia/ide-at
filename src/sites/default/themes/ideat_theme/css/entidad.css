@@ -1,25 +1,25 @@
 /*Bloque entidades*/
 
-.view-entidades {
+.view-bloque-entidades {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.view-entidades .views-row {
+.view-bloque-entidades .views-row {
   display: inline-block;
 }
 
-.view-entidades .views-row .views-field-field-enlace {
+.view-bloque-entidades .views-row .views-field-field-enlace {
 
 }
 
-.view-entidades .views-row .views-field-field-enlace .field-content {
+.view-bloque-entidades .views-row .views-field-field-enlace .field-content {
   width: 82px;
   height: 82px;
   background-color: #ffffff;
   display: table;
 }
 
-.view-entidades .views-row .views-field-field-enlace .field-content a {
+.view-bloque-entidades .views-row .views-field-field-enlace .field-content a {
   display: table-cell;
   vertical-align: middle;
 }
