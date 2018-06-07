@@ -1,0 +1,19 @@
+{#
+/**
+  * link: https://drupal.stackexchange.com/questions/195828/content-types-versus-custom-block-types
+  * link: https://drupal.stackexchange.com/questions/205337/how-to-template-a-view-and-be-able-to-manipulate-the-content-with-it
+  */
+#}
+
+
+<div>
+	<span class="icon-news"></span>
+	<h3 class="">Noticias</h3>
+</div>
+{% block content %}
+  {{ content }}
+{% endblock %}
+<hr>
+<h4 class="event-title col-sm-12 col-xs-12 col-md-8 col-lg-8">Eventos</h4>
+<!-- <h5 class="event-text col-sm-6 col-xs-6 col-md-8 col-lg-8">Land Governance in an interconnected World</h5> -->
+<a class="event-link col-sm-6 col-xs-6 col-md-4 col-lg-4" href="/noticias"><p>Ver más</p></a>
