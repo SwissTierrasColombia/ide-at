@@ -178,7 +178,8 @@ src: local('Helvetica 85 Heavy'), url('../fonts/helvetica-neue/HelveticaNeue-Hea
 }
 /*------------------- ENTIDADES ------------------------*/
 .ent-section{
-	padding: 30px 0;
+	padding-top: 30px;
+  padding-bottom: 10px;
 	background-color: #ADADAD;
 }
 .ent-box2{
