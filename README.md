@@ -24,8 +24,22 @@ docker-compose up
 
 ## Restore database
 ```
- #mysql -u root -p < Drupal8Dump20180315.sql
- [root@web www]# mysql -u root -p
+## Create User and Database ##
+# mysql -u root -p
+MariaDB [(none)]> CREATE DATABASE `mydb`;
+MariaDB [(none)]> CREATE USER 'myuser' IDENTIFIED BY 'mypassword';
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON `mydb`.* TO 'myuser'@localhost IDENTIFIED BY 'mypassword';
+-- OR
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON `mydb`.* TO 'myuser'@'%' IDENTIFIED BY 'mypassword';
+-- APPLY CHANGES
+MariaDB [(none)]> FLUSH PRIVILEGES;
+MariaDB [(none)]> SHOW GRANTS FOR 'myuser'@localhost;
+
+## Restore backups ##
+# mysql -u root -p < Drupal8Dump20180315.sql
+
+## Restore backup from specific database ##
+# mysql -u root -p
 Enter password:
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 6108
@@ -35,7 +49,7 @@ Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-MariaDB [(none)]> use ideat;
+MariaDB [(none)]> use mydb;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 
@@ -52,3 +66,7 @@ docker-compose exec web drupal cc all
 
 ## Expand all items in menu tree
 See https://www.drupal.org/project/drupal/issues/2594425#comment-12494095
+```SQL
+SELECT * FROM dbdrupal.menu_tree WHERE menu_name='main';
+UPDATE dbdrupal.menu_tree SET expanded='1' WHERE menu_name='main';
+```
