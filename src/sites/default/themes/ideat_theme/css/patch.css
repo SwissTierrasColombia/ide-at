@@ -1,3 +1,7 @@
 #toolbar-administration, #toolbar-administration * {
-    color: #545252;
+  color: #545252;
+}
+
+#toolbar-item-user {
+  margin-top: 6px;
 }

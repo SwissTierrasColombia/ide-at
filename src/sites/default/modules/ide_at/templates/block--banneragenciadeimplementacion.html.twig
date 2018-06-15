@@ -17,7 +17,7 @@
   <div class="container">
     {% if page_title_var %}
     <h1 class="intern-head-title col-md-12">{{ page_title_var }}</h1>
-    <h4 class="bread-link col-md-12"><a class="bread-home" href="/">Inicio</a> / {{ page_title_var }} </h4>
+    <h4 class="bread-link col-md-12"><a class="bread-home" href="{{ url('<front>') }}">Inicio</a> / {{ page_title_var }} </h4>
     {% else %}
     <h1 class="intern-head-title col-md-12">IDE-AT</h1>
     {% endif %}

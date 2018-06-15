@@ -66,7 +66,11 @@
                 {% import _self as menus %}
                 {{ menus.menu_links(items, attributes, 0) }}
                 {# @link https://www.drupal.org/docs/8/theming/twig/functions-in-twig-templates #}
-                <li><a href="{{ url('user.login') }}" class="login-cta">{{ 'Login'|t }}</a></li>
+                {% if logged_in %}
+                  <li><a href="{{ url('user.logout') }}" class="login-cta">{{ 'Logout'|t }}</a></li>
+                {% else %}
+                  <li><a href="{{ url('user.login') }}" class="login-cta">{{ 'Login'|t }}</a></li>
+                {% endif %}
             </ul>
           </div>
         </div>
