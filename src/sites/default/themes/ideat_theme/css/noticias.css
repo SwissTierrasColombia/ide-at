@@ -1,0 +1,15 @@
+.noticia {
+  padding: 1.5em;
+}
+
+.view-noticias {
+  padding: 1.5em;
+}
+
+.noticia .img-responsive {
+  width: 50em;
+  height: 35em;
+  display: block;
+  margin: auto;
+  padding: 0.5em;
+}
