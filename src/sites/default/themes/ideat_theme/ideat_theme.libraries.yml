@@ -12,6 +12,7 @@ global-styling:
       css/login.css: {}
       css/patch.css: {}
       css/noticias.css: {}
+      css/entidades-resumen.css: {}
       #css/slide-entidades.css: {}
   js:
     js/modernizr-2.6.2.min.js: {type: file, minified: true}
