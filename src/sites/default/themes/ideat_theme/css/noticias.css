@@ -7,8 +7,10 @@
 }
 
 .noticia .img-responsive {
-  width: 50em;
-  height: 35em;
+  max-width: 50em;
+  max-height: 35em;
+  width: auto;
+  height: auto;
   display: block;
   margin: auto;
   padding: 0.5em;
@@ -17,4 +19,5 @@
 .view-bloque-noticias .img-responsive {
   width: 5em;
   height: 4em;
+
 }

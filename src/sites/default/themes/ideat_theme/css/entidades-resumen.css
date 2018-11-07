@@ -1,16 +1,16 @@
-.views-element-container .view-entidades {
+.view-entidades {
   padding: 1.5em;
 }
 
-.region .entidad .content {
+article.entidad {
   padding: 1.5em;
 }
 
-.field--name-body {
+.entidad .field--name-body {
   font-size: 16px;
 }
 
-.field--name-field-sigla .field--label {
+.entidad .field--name-field-sigla .field--label {
   display: inherit;
   color: #E51A83;
   border-bottom: 0.1em solid #E51A83;
@@ -19,7 +19,7 @@
 
 }
 
-.field--name-field-enlace .field--label {
+.entidad .field--name-field-enlace .field--label {
   display: inherit;
   color: #E51A83;
   border-bottom: 0.1em solid #E51A83;
@@ -27,7 +27,7 @@
   font-size: 20px;
 }
 
-.field--name-field-image .field--label {
+.entidad .field--name-field-image .field--label {
   display: inherit;
   color: #E51A83;
   border-bottom: 0.1em solid #E51A83;
@@ -35,9 +35,9 @@
   font-size: 20px;
 }
 
-.field--name-field-sigla .field--item {
+.entidad .field--name-field-sigla .field--item {
   font-size: 18px;
 }
-.field--name-field-enlace .field--item {
+.entidad .field--name-field-enlace .field--item {
   font-size: 18px;
 }
