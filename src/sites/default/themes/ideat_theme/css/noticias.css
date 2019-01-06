@@ -1,0 +1,23 @@
+.noticia {
+  padding: 1.5em;
+}
+
+.view-noticias {
+  padding: 1.5em;
+}
+
+.noticia .img-responsive {
+  max-width: 50em;
+  max-height: 35em;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 0.5em;
+}
+
+.view-bloque-noticias .img-responsive {
+  width: 5em;
+  height: 4em;
+
+}

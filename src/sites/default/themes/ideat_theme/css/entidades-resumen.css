@@ -1,0 +1,43 @@
+.view-entidades {
+  padding: 1.5em;
+}
+
+article.entidad {
+  padding: 1.5em;
+}
+
+.entidad .field--name-body {
+  font-size: 16px;
+}
+
+.entidad .field--name-field-sigla .field--label {
+  display: inherit;
+  color: #E51A83;
+  border-bottom: 0.1em solid #E51A83;
+  margin: 1em 0 10px;
+  font-size: 20px;
+
+}
+
+.entidad .field--name-field-enlace .field--label {
+  display: inherit;
+  color: #E51A83;
+  border-bottom: 0.1em solid #E51A83;
+  margin: 1em 0 10px;
+  font-size: 20px;
+}
+
+.entidad .field--name-field-image .field--label {
+  display: inherit;
+  color: #E51A83;
+  border-bottom: 0.1em solid #E51A83;
+  margin: 1em 0 10px;
+  font-size: 20px;
+}
+
+.entidad .field--name-field-sigla .field--item {
+  font-size: 18px;
+}
+.entidad .field--name-field-enlace .field--item {
+  font-size: 18px;
+}
